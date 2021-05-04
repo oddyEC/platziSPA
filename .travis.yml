@@ -15,7 +15,6 @@ cache:
     keep-history: true
     github-token: $GITHUB_TOKEN
     local-dir: dist/
-    target-branch: gh-pages
     commit_message: "Deploy Release"
     on:
       branch: gh-pages
